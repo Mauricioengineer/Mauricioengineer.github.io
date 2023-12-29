@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>Glassmorphism login Form Tutorial in html css</title>
+ 
+    
+    <!--Stylesheet-->
+    <style media="screen">
       *,
 *:before,
 *:after{
@@ -7,8 +16,6 @@
 }
 body{
     background-color: #080710;
-    background-image: url("../img/paris.jpg");
-    background-repeat: no-repeat;
 }
 .background{
     width: 430px;
@@ -35,8 +42,8 @@ body{
 .shape:last-child{
     background: linear-gradient(
         to right,
-        #552fff,
-        #1927f0
+        #ff512f,
+        #f09819
     );
     right: -30px;
     bottom: -80px;
@@ -123,33 +130,27 @@ button{
   margin-right: 4px;
 }
 
-.contenedor{
-    height: 300px;
-    width: 350px;
-    background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
-}
-.contenedor *{
-    font-family: 'Poppins',sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.5px;
-    outline: none;
-    border: none;
-}
-.imagen{
-    padding: 0,0;
-    height: 100%;
-    width: 100%;
-    background-image: url("../img/3.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button>Log In</button>
+        <div class="social">
+          <div class="go"><i class="fab fa-google"></i>  Google</div>
+          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+    </form>
+</body>
+</html>
