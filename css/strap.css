@@ -1,0 +1,69 @@
+
+
+
+.imgss{
+background-color: blue;
+
+   width: 180px;
+   height: 180px;
+
+
+   margin: 10px 10px 10px 10px;
+  
+
+   /***b1**/
+   /*clip-path: circle(50% at 50% 65%);*/
+ /***b2**/
+   clip-path: polygon(100% 0, 100% 69%, 50% 85%, 0 69%, 0 0);
+
+
+   cursor: pointer;
+    transition: 0.5s;
+}
+.fondo{
+    background-image: url("/img/paisaje.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height:100vh ;
+}
+
+.ventana1{
+border: 2px solid red;
+background-color: rgb(24, 40, 182);
+width: 100%;
+height: 100vh;
+
+  display: flex;
+    justify-content: center;
+/*justify-content: center;*/align-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.posi{
+    position: relative;
+   width: 200px;
+    border: 2px solid red;
+ 
+
+}
+.texr{
+    position: absolute;
+    width: 100%;
+  left: 0px;
+  bottom: 0px;
+  border: 3px solid #73AD21;
+  background-color: rgba(0,0,0,0.5);
+  color: aliceblue;
+}
+
+
+
+@media (max-width: 800px){
+
+
+
+}

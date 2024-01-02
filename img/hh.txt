@@ -1,0 +1,12 @@
+Cinco versiones de la página de inicio: Cabecera fija, Parallax Slider, Mapa con marcadores, Cont Down Timer y Fondo de Vídeo
+Centrado en la conversión
+Listado de propiedades
+Mapa con marcadores
+Temporizador de cuenta regresiva
+Una página o página de destino
+Formulario de contacto de trabajo
+Formulario de suscripción en funcionamiento
+Efectos de paralaje
+Control deslizante de Vídeo a pantalla completa
+Edición de bloques sencilla
+Etiquetas de artíc

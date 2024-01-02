@@ -1,58 +1,93 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Galeria</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--link href="css/style.css" rel="stylesheet"-->
-        <link href="css/stilogaleria.css" rel="stylesheet">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title><link rel="" href="/css/strap.css"  rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/strap.css">
 </head>
-    <body>
-        <div class="full-image" id="fullimagebox">
-            <i class='bx bxs-chevrons-left le' id="left_btn"></i>
-            <img src="img/a1.jpg" class="imge"   id="elementos" alt="">
-            <i class='bx bxs-chevrons-right ri' id="rigth_btn"></i>
-            <span class="close" id="closeimage">X</span>
-</div>
-    <div class="contenedor">
+  <body>
 
-  <h1> Galeria de Fotos</h1>
-     
-          <div class="contenedor" id="">
-            <img src="img/IMG_20230320_131505.jpg"        class="img">
-            <img src="img/IMG_20221028_115330.jpg"       class="img" alt="">
-            <img src="img/IMG_20220921_142252.jpg"    class="img" alt="">
-        <img src="img/3.jpg"        class="img">
-        <img src="img/a2.jpg"       class="img" alt="">
-        <img src="img/a1456.jpg"    class="img" alt="">
-        <img src="img/a46899.jpg"   class="img" alt="">
-        <img src="img/adad.jpg"    class="img" alt="">
-        <img src="img/arar.jpg"   class="img" alt="">
-        <img src="img/tutu.jpg"        class="img">
-        <img src="img/b346.jpg"       class="img" alt="">
-        <img src="img/b234.jpg"    class="img" alt="">
-        <img src="img/b2.jpg"   class="img" alt="">
-        <img src="img/Polish_20230917_094956979.jpg"    class="img" alt="">
-        <img src="img/b35567.jpg"   class="img" alt="">
-  
+    <div class="container-fluid" style="border: 2px solid grey;">
+       
+          
+              <nav class="navbar navbar-expand-sm bg-body-tertiary navbar-fixed-bottom">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="/img/logo.png" alt="Bootstrap" width="250px" height="80%"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class=" collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+            </div>
+
+
+<div class="fondo container-fluid  " > 
+    
+    <div class="  d-md-flex justify-content-center width-100 ">  
+        <div class="position-relative">
+             <img src="/img/achocalla.jpg" class="imgss  "  alt="...">
+        <span class="texr">AAAAAAA</span>
+        </div>
+       
+        <img src="/img/flores.avif" class="imgss" alt="...">
+        <span class="texr">BBBBBB</span>
+        <img src="/img/terrazas.avif" class="imgss" alt="...">
+        <span class="texr">ACCCA</span>
+    </div>
+</div>
+
+         <div class="ventana1">
+            
+                <div class="posi">
+                     <img src="/img/achocalla.jpg" class="imgss  "  alt="...">
+                <span class="texr">AAAAAAA</span>
+                </div>
+
+                <div class="posi">
+                <img src="/img/flores.avif" class="imgss" alt="...">
+                <span class="texr">BBBBBB</span> 
+            </div>
+
+                <div class="posi">
+                <img src="/img/terrazas.avif" class="imgss" alt="...">
+                <span class="texr">ACCCA</span>
+            </div>
+            
+        
+         </div>  
+    
+      
+        
 
 
 
     
-         
-</div>
-    </div>
-    <script  type="text/javascript" src="./js/script.js"></script>
-   
-  
-
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
